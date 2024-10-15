@@ -1,0 +1,399 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Synel\\SynelInitialTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19F9112E-10F9-4E3A-B7A7-1439C5B166FD}|Employees.IntegrationTest\\Employees.IntegrationTest.csproj|d:\\projects\\synel\\synelinitialtest\\employees.integrationtest\\employeeservicesqlintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19F9112E-10F9-4E3A-B7A7-1439C5B166FD}|Employees.IntegrationTest\\Employees.IntegrationTest.csproj|solutionrelative:employees.integrationtest\\employeeservicesqlintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\employees.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\employees.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19F9112E-10F9-4E3A-B7A7-1439C5B166FD}|Employees.IntegrationTest\\Employees.IntegrationTest.csproj|d:\\projects\\synel\\synelinitialtest\\employees.integrationtest\\employees.integrationtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{19F9112E-10F9-4E3A-B7A7-1439C5B166FD}|Employees.IntegrationTest\\Employees.IntegrationTest.csproj|solutionrelative:employees.integrationtest\\employees.integrationtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\models\\entities\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\models\\entities\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\services\\mappers\\employeemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\services\\mappers\\employeemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\models\\dtos\\employeesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\models\\dtos\\employeesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\services\\mappers\\dateresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\services\\mappers\\dateresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\services\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\services\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\models\\dtos\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\models\\dtos\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\models\\dtos\\creatingemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\models\\dtos\\creatingemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|d:\\projects\\synel\\synelinitialtest\\src\\employees.mvc\\models\\entities\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4EE1EE-5357-49B1-B4E9-D419D5457DE5}|src\\Employees.MVC\\Employees.MVC.csproj|solutionrelative:src\\employees.mvc\\models\\entities\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 210,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeServiceSqlIntegrationTests.cs",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\Employees.IntegrationTest\\EmployeeServiceSqlIntegrationTests.cs",
+              "RelativeDocumentMoniker": "Employees.IntegrationTest\\EmployeeServiceSqlIntegrationTests.cs",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\Employees.IntegrationTest\\EmployeeServiceSqlIntegrationTests.cs",
+              "RelativeToolTip": "Employees.IntegrationTest\\EmployeeServiceSqlIntegrationTests.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEAAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:06:26.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employees.MVC.csproj",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Employees.MVC.csproj",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Employees.MVC.csproj",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Employees.MVC.csproj",
+              "RelativeToolTip": "src\\Employees.MVC\\Employees.MVC.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-14T12:06:13.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employees.IntegrationTest.csproj",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\Employees.IntegrationTest\\Employees.IntegrationTest.csproj",
+              "RelativeDocumentMoniker": "Employees.IntegrationTest\\Employees.IntegrationTest.csproj",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\Employees.IntegrationTest\\Employees.IntegrationTest.csproj",
+              "RelativeToolTip": "Employees.IntegrationTest\\Employees.IntegrationTest.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-14T12:06:13.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Services\\EmployeeService.cs",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "src\\Employees.MVC\\Services\\EmployeeService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowC0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:00:55.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeesDTO.cs",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Models\\DTOs\\EmployeesDTO.cs",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Models\\DTOs\\EmployeesDTO.cs",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Models\\DTOs\\EmployeesDTO.cs",
+              "RelativeToolTip": "src\\Employees.MVC\\Models\\DTOs\\EmployeesDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:34:35.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeMappingProfile.cs",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Services\\Mappers\\EmployeeMappingProfile.cs",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Services\\Mappers\\EmployeeMappingProfile.cs",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Services\\Mappers\\EmployeeMappingProfile.cs",
+              "RelativeToolTip": "src\\Employees.MVC\\Services\\Mappers\\EmployeeMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:54:48.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Services\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Services\\IEmployeeService.cs",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Services\\IEmployeeService.cs",
+              "RelativeToolTip": "src\\Employees.MVC\\Services\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:00:44.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\appsettings.json",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\appsettings.json",
+              "RelativeToolTip": "src\\Employees.MVC\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-14T05:01:11.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Services\\FileService.cs",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Services\\FileService.cs",
+              "RelativeToolTip": "src\\Employees.MVC\\Services\\FileService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAcwCgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:37:30.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DateResolver.cs",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Services\\Mappers\\DateResolver.cs",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Services\\Mappers\\DateResolver.cs",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Services\\Mappers\\DateResolver.cs",
+              "RelativeToolTip": "src\\Employees.MVC\\Services\\Mappers\\DateResolver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T06:53:59.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "src\\Employees.MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:33:44.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "src\\Employees.MVC\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:46:53.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Program.cs",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Program.cs",
+              "RelativeToolTip": "src\\Employees.MVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:10:29.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "src\\Employees.MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T05:35:31.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreatingEmployees.cs",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Models\\DTOs\\CreatingEmployees.cs",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Models\\DTOs\\CreatingEmployees.cs",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Models\\DTOs\\CreatingEmployees.cs",
+              "RelativeToolTip": "src\\Employees.MVC\\Models\\DTOs\\CreatingEmployees.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:39:52.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Services\\IFileService.cs",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Services\\IFileService.cs",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Services\\IFileService.cs",
+              "RelativeToolTip": "src\\Employees.MVC\\Services\\IFileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:37:22.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Models\\Entities\\Employees.cs",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Models\\Entities\\Employees.cs",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Models\\Entities\\Employees.cs",
+              "RelativeToolTip": "src\\Employees.MVC\\Models\\Entities\\Employees.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:30:37.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Response.cs",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Models\\DTOs\\Response.cs",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Models\\DTOs\\Response.cs",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Models\\DTOs\\Response.cs",
+              "RelativeToolTip": "src\\Employees.MVC\\Models\\DTOs\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:38:08.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "src\\Employees.MVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T06:41:30.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "src\\Employees.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAC0AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T05:37:18.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Models\\Entities\\EntityBase.cs",
+              "RelativeDocumentMoniker": "src\\Employees.MVC\\Models\\Entities\\EntityBase.cs",
+              "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.MVC\\Models\\Entities\\EntityBase.cs",
+              "RelativeToolTip": "src\\Employees.MVC\\Models\\Entities\\EntityBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:51:49.908Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 107,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
