@@ -14,7 +14,7 @@ namespace Employees.Web.Extensions
                 var context = services.GetRequiredService<TContext>();
                 try
                 {
-                    
+                   // retry strategy with Polly 
                     var retry = Policy.Handle<SqlException>().WaitAndRetry(
                         retryCount: 5, sleepDurationProvider: retrAttempt => TimeSpan.FromSeconds(Math.Pow(retrAttempt, 2))
                         

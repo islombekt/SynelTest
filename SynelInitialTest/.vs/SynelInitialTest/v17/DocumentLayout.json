@@ -188,7 +188,7 @@
               "RelativeDocumentMoniker": "src\\Employees.Web\\Extensions\\DbExtension.cs",
               "ToolTip": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.Web\\Extensions\\DbExtension.cs",
               "RelativeToolTip": "src\\Employees.Web\\Extensions\\DbExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBoAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T14:35:38.432Z",
               "EditorCaption": ""
@@ -215,8 +215,7 @@
               "RelativeToolTip": "src\\Employees.Web\\Program.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T11:39:36.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T11:39:36.958Z"
             },
             {
               "$type": "Document",
@@ -228,8 +227,7 @@
               "RelativeToolTip": "src\\Employees.Web\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-15T11:39:55.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T11:39:55.944Z"
             },
             {
               "$type": "Document",
@@ -241,8 +239,7 @@
               "RelativeToolTip": "src\\Employees.Infrastructure\\Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T09:55:52.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T09:55:52.913Z"
             },
             {
               "$type": "Document",
