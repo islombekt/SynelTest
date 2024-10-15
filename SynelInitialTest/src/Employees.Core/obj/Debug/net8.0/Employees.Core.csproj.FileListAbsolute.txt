@@ -1,0 +1,12 @@
+D:\Projects\Synel\SynelInitialTest\src\Employees.Core\bin\Debug\net8.0\Employees.Core.deps.json
+D:\Projects\Synel\SynelInitialTest\src\Employees.Core\bin\Debug\net8.0\Employees.Core.dll
+D:\Projects\Synel\SynelInitialTest\src\Employees.Core\bin\Debug\net8.0\Employees.Core.pdb
+D:\Projects\Synel\SynelInitialTest\src\Employees.Core\obj\Debug\net8.0\Employees.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Synel\SynelInitialTest\src\Employees.Core\obj\Debug\net8.0\Employees.Core.AssemblyInfoInputs.cache
+D:\Projects\Synel\SynelInitialTest\src\Employees.Core\obj\Debug\net8.0\Employees.Core.AssemblyInfo.cs
+D:\Projects\Synel\SynelInitialTest\src\Employees.Core\obj\Debug\net8.0\Employees.Core.csproj.CoreCompileInputs.cache
+D:\Projects\Synel\SynelInitialTest\src\Employees.Core\obj\Debug\net8.0\Employees.Core.sourcelink.json
+D:\Projects\Synel\SynelInitialTest\src\Employees.Core\obj\Debug\net8.0\Employees.Core.dll
+D:\Projects\Synel\SynelInitialTest\src\Employees.Core\obj\Debug\net8.0\refint\Employees.Core.dll
+D:\Projects\Synel\SynelInitialTest\src\Employees.Core\obj\Debug\net8.0\Employees.Core.pdb
+D:\Projects\Synel\SynelInitialTest\src\Employees.Core\obj\Debug\net8.0\ref\Employees.Core.dll

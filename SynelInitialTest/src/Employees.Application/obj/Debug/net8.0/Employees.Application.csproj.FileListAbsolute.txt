@@ -1,0 +1,16 @@
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\bin\Debug\net8.0\Employees.Application.deps.json
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\bin\Debug\net8.0\Employees.Application.dll
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\bin\Debug\net8.0\Employees.Application.pdb
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\bin\Debug\net8.0\Employees.Core.dll
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\bin\Debug\net8.0\Employees.Core.pdb
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\obj\Debug\net8.0\Employees.Application.csproj.AssemblyReference.cache
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\obj\Debug\net8.0\Employees.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\obj\Debug\net8.0\Employees.Application.AssemblyInfoInputs.cache
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\obj\Debug\net8.0\Employees.Application.AssemblyInfo.cs
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\obj\Debug\net8.0\Employees.Application.csproj.CoreCompileInputs.cache
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\obj\Debug\net8.0\Employees.Application.sourcelink.json
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\obj\Debug\net8.0\Employee.1547ACAE.Up2Date
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\obj\Debug\net8.0\Employees.Application.dll
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\obj\Debug\net8.0\refint\Employees.Application.dll
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\obj\Debug\net8.0\Employees.Application.pdb
+D:\Projects\Synel\SynelInitialTest\src\Employees.Application\obj\Debug\net8.0\ref\Employees.Application.dll
