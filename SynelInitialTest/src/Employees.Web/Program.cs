@@ -1,10 +1,8 @@
 using Employees.Application.Services;
 using Employees.Application.Services.Handlers.Error;
-using Employees.Core.Repositories;
 using Employees.Infrastructure.Data;
 using Employees.Infrastructure.Extensions;
-using Employees.Infrastructure.Repositories;
-using Microsoft.EntityFrameworkCore;
+using Employees.Web.Extensions;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,7 +22,8 @@ builder.Services.AddScoped<IErrorHandler, ErrorHandler>();
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 var app = builder.Build();
-
+// Apply migration
+app.MigrateDatabase<ApplicationDbContext>();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

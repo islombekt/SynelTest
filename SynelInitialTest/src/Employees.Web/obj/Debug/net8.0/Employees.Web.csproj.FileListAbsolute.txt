@@ -320,3 +320,5 @@ D:\Projects\Synel\SynelInitialTest\src\Employees.Web\obj\Debug\net8.0\refint\Emp
 D:\Projects\Synel\SynelInitialTest\src\Employees.Web\obj\Debug\net8.0\Employees.Web.pdb
 D:\Projects\Synel\SynelInitialTest\src\Employees.Web\obj\Debug\net8.0\Employees.Web.genruntimeconfig.cache
 D:\Projects\Synel\SynelInitialTest\src\Employees.Web\obj\Debug\net8.0\ref\Employees.Web.dll
+D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\Polly.dll
+D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\Polly.Core.dll
