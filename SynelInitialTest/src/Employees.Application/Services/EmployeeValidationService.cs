@@ -15,8 +15,7 @@ namespace Employees.Application.Services
                 validationError = "PayrollNumber cannot be empty.";
                 return false;
             }
-
-            // Add more validation as needed
+                
             return true;
         }
     }

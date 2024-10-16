@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace Employees.Core.Common
+﻿namespace Employees.Core.Common
 {
     public class EntityBase
     {

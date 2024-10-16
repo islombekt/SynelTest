@@ -1,8 +1,7 @@
-using Employees.Application.Services;
-using Employees.Application.Services.Handlers.Error;
 using Employees.Infrastructure.Data;
 using Employees.Infrastructure.Extensions;
 using Employees.Web.Extensions;
+using Employees.Application.Extensions;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,13 +12,8 @@ builder.Services.AddControllersWithViews();
 // add Infratstructure services 
 builder.Services.AddInfraServices(builder.Configuration);
 
-// add services 
-
-builder.Services.AddScoped<IFileService, FileService>();
-builder.Services.AddScoped<IEmployeeService, EmployeeService>();
-builder.Services.AddScoped<IEmployeeValidationService, EmployeeValidationService>();
-builder.Services.AddScoped<IErrorHandler, ErrorHandler>();
-builder.Services.AddAutoMapper(typeof(Program).Assembly);
+// add Application services 
+builder.Services.AddApplicationServices();
 
 var app = builder.Build();
 // Apply migration

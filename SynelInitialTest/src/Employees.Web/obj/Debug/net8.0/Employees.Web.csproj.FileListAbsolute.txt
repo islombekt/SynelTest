@@ -322,3 +322,4 @@ D:\Projects\Synel\SynelInitialTest\src\Employees.Web\obj\Debug\net8.0\Employees.
 D:\Projects\Synel\SynelInitialTest\src\Employees.Web\obj\Debug\net8.0\ref\Employees.Web.dll
 D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\Polly.dll
 D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\Polly.Core.dll
+D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\Newtonsoft.Json.dll

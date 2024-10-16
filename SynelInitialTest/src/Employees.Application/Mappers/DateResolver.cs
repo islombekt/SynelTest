@@ -5,6 +5,7 @@ using System.Globalization;
 
 namespace Employees.Application.Mappers
 {
+    // this class is used for automapper, to convert string of Date to DateTime format
     public class DateResolver : IValueResolver<EmployeesDTO, Employee, DateTime>
     {
         public DateTime Resolve(EmployeesDTO source, Employee destination, DateTime destMember, ResolutionContext context)

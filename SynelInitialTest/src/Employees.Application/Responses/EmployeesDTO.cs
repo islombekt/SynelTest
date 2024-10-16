@@ -2,6 +2,7 @@
 
 namespace Employees.Application.Responses
 {
+    // Model to match csv file data
     public class EmployeesDTO
     {
         [Index(0)]

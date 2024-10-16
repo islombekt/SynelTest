@@ -1,6 +1,7 @@
 using Employees.Application.Responses;
 using Employees.Application.Services;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Diagnostics;
 
 namespace Employees.Web.Controllers
@@ -37,7 +38,31 @@ namespace Employees.Web.Controllers
         [HttpPost]
         public async Task<ActionResult> Import(IFormFile file)
         {
-            var getData = await _fileService.addRecords(file);
+            if (file == null || file.Length == 0)
+            {
+                TempData["Message"] = "No file selected or the file is empty.";
+                TempData["IsSuccess"] = false;
+                return RedirectToAction("Index");
+            }
+
+            var response = await _fileService.addRecords(file);
+
+            if (response.IsSuccess)
+            {
+                TempData["Message"] = $"Import successful. Total items: {response.Data.TotalItems}, Added: {response.Data.Q_Added}, Failure: {response.Data.Q_Failure}.";
+                TempData["IsSuccess"] = true;
+
+                if (response.Data.Errors != null && response.Data.Errors.Any())
+                {
+                    TempData["Errors"] = JsonConvert.SerializeObject(response.Data.Errors);
+                }
+            }
+            else
+            {
+                TempData["Message"] = "Import failed. " + response.Message;
+                TempData["IsSuccess"] = false;
+            }
+
             return RedirectToAction("Index");
         }
     }

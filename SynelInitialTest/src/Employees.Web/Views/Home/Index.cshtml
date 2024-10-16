@@ -1,4 +1,5 @@
-﻿@model IEnumerable<Employees.Core.Entities.Employee>
+﻿@using Newtonsoft.Json
+@model IEnumerable<Employees.Core.Entities.Employee>
 
 <h2>Import Employees</h2>
 @using (Html.BeginForm("Import", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
@@ -7,9 +8,36 @@
     <input type="file" name="file" />
     <button type="submit" class="btn btn-primary">Import</button>
 }
+
 @if (TempData["Message"] != null)
 {
-    <div class="alert alert-success">@TempData["Message"]</div>
+    var isSuccess = (bool)TempData["IsSuccess"];
+    var messageClass = isSuccess ? "alert alert-success" : "alert alert-danger";
+
+    <div class="@messageClass">@TempData["Message"]</div>
+
+    if (TempData["Errors"] != null)
+    {
+        TempData.Keep("Errors"); // Ensure TempData persists across further requests, if needed
+
+        var errorsJson = TempData["Errors"] as string;
+        if (!string.IsNullOrEmpty(errorsJson))
+        {
+            var errors = JsonConvert.DeserializeObject<List<string>>(errorsJson);
+            if (errors != null && errors.Any())
+            {
+                <div class="alert alert-warning">
+                    <strong>Errors:</strong>
+                    <ul>
+                        @foreach (var error in errors)
+                        {
+                            <li>@error</li>
+                        }
+                    </ul>
+                </div>
+            }
+        }
+    }
 }
 
 <h2>Employee List</h2>

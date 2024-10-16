@@ -7,6 +7,7 @@ namespace Employees.Core.Repositories
     {
         Task<IReadOnlyList<Employee>> getAllAsync();
         Task AddAsync(Employee employee);
+        Task<bool> existingPayrollNumber(string payrollNumber);
         Task<int> SaveChangesAsync();
     }
 }
