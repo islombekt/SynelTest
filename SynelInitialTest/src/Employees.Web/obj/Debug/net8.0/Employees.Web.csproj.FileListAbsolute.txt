@@ -205,6 +205,9 @@ D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\Microsoft.
 D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\Mono.TextTemplating.dll
 D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\Moq.dll
+D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\Polly.dll
+D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\Polly.Core.dll
 D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\System.CodeDom.dll
 D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -320,6 +323,3 @@ D:\Projects\Synel\SynelInitialTest\src\Employees.Web\obj\Debug\net8.0\refint\Emp
 D:\Projects\Synel\SynelInitialTest\src\Employees.Web\obj\Debug\net8.0\Employees.Web.pdb
 D:\Projects\Synel\SynelInitialTest\src\Employees.Web\obj\Debug\net8.0\Employees.Web.genruntimeconfig.cache
 D:\Projects\Synel\SynelInitialTest\src\Employees.Web\obj\Debug\net8.0\ref\Employees.Web.dll
-D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\Polly.dll
-D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\Polly.Core.dll
-D:\Projects\Synel\SynelInitialTest\src\Employees.Web\bin\Debug\net8.0\Newtonsoft.Json.dll

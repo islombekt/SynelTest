@@ -1,0 +1,5 @@
+{
+  "Employees.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.Application",
+  "Employees.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.Core",
+  "Employees.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Projects\\Synel\\SynelInitialTest\\src\\Employees.Infrastructure"
+}
