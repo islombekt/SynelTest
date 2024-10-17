@@ -1,4 +1,11 @@
 D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\bin\Debug\net8.0\CoverletSourceRootsMapping_Employee.Infrastructure.IntegrationTest
+D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\Employee.Infrastructure.IntegrationTest.csproj.AssemblyReference.cache
+D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\MvcTestingAppManifest.json
+D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\Employee.Infrastructure.IntegrationTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\Employee.Infrastructure.IntegrationTest.AssemblyInfoInputs.cache
+D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\Employee.Infrastructure.IntegrationTest.AssemblyInfo.cs
+D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\Employee.Infrastructure.IntegrationTest.csproj.CoreCompileInputs.cache
+D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\Employee.Infrastructure.IntegrationTest.sourcelink.json
 D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\bin\Debug\net8.0\testhost.dll
 D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\bin\Debug\net8.0\testhost.exe
 D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\bin\Debug\net8.0\MvcTestingAppManifest.json
@@ -449,13 +456,6 @@ D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest
 D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\bin\Debug\net8.0\Employees.Infrastructure.pdb
 D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\bin\Debug\net8.0\Employees.Application.pdb
 D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\bin\Debug\net8.0\Employees.Core.pdb
-D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\Employee.Infrastructure.IntegrationTest.csproj.AssemblyReference.cache
-D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\MvcTestingAppManifest.json
-D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\Employee.Infrastructure.IntegrationTest.GeneratedMSBuildEditorConfig.editorconfig
-D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\Employee.Infrastructure.IntegrationTest.AssemblyInfoInputs.cache
-D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\Employee.Infrastructure.IntegrationTest.AssemblyInfo.cs
-D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\Employee.Infrastructure.IntegrationTest.csproj.CoreCompileInputs.cache
-D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\Employee.Infrastructure.IntegrationTest.sourcelink.json
 D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\Employee.2200AD17.Up2Date
 D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\Employee.Infrastructure.IntegrationTest.dll
 D:\Projects\Synel\SynelInitialTest\tests\Employee.Infrastructure.IntegrationTest\obj\Debug\net8.0\refint\Employee.Infrastructure.IntegrationTest.dll

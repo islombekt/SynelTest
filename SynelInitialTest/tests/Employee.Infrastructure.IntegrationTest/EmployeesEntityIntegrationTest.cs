@@ -32,11 +32,11 @@ namespace Employee.Infrastructure.IntegrationTest
             };
 
             // Act
-            _dbContext.Add(entity);
-            await _dbContext.SaveChangesAsync();
+            _context.Add(entity);
+            await _context.SaveChangesAsync();
 
             // Assert
-            var insertedEntity = await _dbContext.Employees.FindAsync(entity.EmployeeId);
+            var insertedEntity = await _context.Employees.FindAsync(entity.EmployeeId);
             Assert.NotNull(insertedEntity);
             Assert.Equal("EMP002", insertedEntity.PayrollNumber);
         }
@@ -45,7 +45,7 @@ namespace Employee.Infrastructure.IntegrationTest
         public async Task GetEntity_Should_Return_Correct_Data()
         {
             // Act
-            var entity = await _dbContext.Employees.FirstOrDefaultAsync();
+            var entity = await _context.Employees.FirstOrDefaultAsync();
 
             // Assert
             Assert.NotNull(entity);

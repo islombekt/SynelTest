@@ -2,7 +2,9 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 using System;
 using System.Collections.Generic;
@@ -17,42 +19,43 @@ namespace Employee.Infrastructure.IntegrationTest
     {
         protected override void ConfigureWebHost(IWebHostBuilder builder)
         {
-            // Override the default database setup
             builder.ConfigureServices(services =>
             {
-                // Find the DbContext in the service collection
-                var descriptor = services.SingleOrDefault(
-                    d => d.ServiceType == typeof(DbContextOptions<ApplicationDbContext>));
+                // Remove the existing DbContext configuration if it exists
+                services.RemoveAll(typeof(DbContextOptions<ApplicationDbContext>));
 
-                // If the DbContext exists, remove it
-                if (descriptor != null)
-                {
-                    services.Remove(descriptor);
-                }
-
-                // Add DbContext with an in-memory database for testing purposes
+                // Use a test-specific SQL Server connection string
                 services.AddDbContext<ApplicationDbContext>(options =>
                 {
-                    options.UseSqlServer("Data Source=ICT-ITOXOROV1;Database=SynelTest_IntegrationTestDB;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true;"); 
+                    options.UseSqlServer(GetTestConnectionString());
                 });
 
-                // Build the service provider for DI
-                var serviceProvider = new ServiceCollection()
-                    .AddEntityFrameworkSqlServer()
-                    .BuildServiceProvider();
+                // Build the service provider
+                var serviceProvider = services.BuildServiceProvider();
 
                 // Ensure the database is created
-                var sp = services.BuildServiceProvider();
-                using (var scope = sp.CreateScope())
+                using (var scope = serviceProvider.CreateScope())
                 {
-                    var scopedServices = scope.ServiceProvider;
-                    var db = scopedServices.GetRequiredService<ApplicationDbContext>();
-
-                    // Ensure the database is created
-                    db.Database.EnsureCreated();
+                    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+                    dbContext.Database.EnsureDeleted(); // Clear the database first
+                    dbContext.Database.EnsureCreated(); // Create a fresh database for testing
                 }
             });
         }
+
+        private string GetTestConnectionString()
+        {
+            var configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: true)
+                .AddEnvironmentVariables()
+                .AddUserSecrets<IntegrationTestDbContextFactory>()
+                .Build();
+
+            return configuration.GetConnectionString("EmployeeConnectionString") ??
+                   "Your fallback connection string here";
+        }
     }
+
 
 }

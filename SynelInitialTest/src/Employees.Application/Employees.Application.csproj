@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Employees.Core\Employees.Core.csproj" />
+ <InternalsVisibleTo Include="..\..\tests\Employee.Infrastructure.IntegrationTest\Employee.Infrastructure.IntegrationTest.csproj"/>
   </ItemGroup>
 
 </Project>

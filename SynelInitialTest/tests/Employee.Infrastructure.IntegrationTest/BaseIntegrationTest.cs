@@ -10,29 +10,52 @@ using System.Threading.Tasks;
 namespace Employee.Infrastructure.IntegrationTest
 {
     // To clean database in each test, and rollback changes
-    public class BaseIntegrationTest : IClassFixture<IntegrationTestDbContextFactory>, IDisposable
+    public abstract class BaseIntegrationTest : IClassFixture<IntegrationTestDbContextFactory>
     {
-        protected readonly ApplicationDbContext _dbContext;
-        private readonly IServiceScope _scope;
-        private readonly IDbContextTransaction _transaction;
+        protected readonly ApplicationDbContext _context;
+        private readonly IntegrationTestDbContextFactory _factory;
 
         public BaseIntegrationTest(IntegrationTestDbContextFactory factory)
         {
-            _scope = factory.Services.CreateScope();
-            _dbContext = _scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-
-            // Start a transaction
-            _transaction = _dbContext.Database.BeginTransaction();
-        }
-
-        public void Dispose()
-        {
-            // Rollback the transaction after each test
-            _transaction.Rollback();
-            _transaction.Dispose();
-            _scope.Dispose();
+            _factory = factory;
+            var scope = _factory.Services.CreateScope();
+            _context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
         }
     }
+
+    public class EmployeeIntegrationTest : BaseIntegrationTest
+    {
+        public EmployeeIntegrationTest(IntegrationTestDbContextFactory factory)
+            : base(factory) { }
+
+        [Fact]
+        public async Task Can_Insert_Employee()
+        {
+            // Arrange
+            var employee = new Employees.Core.Entities.Employee
+            {
+                PayrollNumber = "EMP003",
+                Forenames = "John",
+                Surname = "Doe",
+                DateOfBirth = DateTime.Now.AddYears(-30),
+                Telephone = "123456789",
+                Mobile = "987654321",
+                Address = "123 Test St",
+                EmailHome = "john.doe@example.com",
+                StartDate = DateTime.Now
+            };
+
+            // Act
+            _context.Employees.Add(employee);
+            await _context.SaveChangesAsync();
+
+            // Assert
+            var insertedEmployee = await _context.Employees.FindAsync(employee.EmployeeId);
+            Assert.NotNull(insertedEmployee);
+            Assert.Equal("EMP003", insertedEmployee.PayrollNumber);
+        }
+    }
+
 
 
 }

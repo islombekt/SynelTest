@@ -23,7 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Employees.Application\Employees.Application.csproj" />
-	
+	<InternalsVisibleTo Include="..\..\tests\Employee.Infrastructure.IntegrationTest"/>
   </ItemGroup>
 
   <ItemGroup>
