@@ -32,7 +32,7 @@ namespace Employees.Application.Services
             List<Employee> employees = new List<Employee>();
             try
             {
-                // Map DTOs to Employee entities
+                // Map DTO to Employee entities
                 employees = _mapper.Map<List<Employee>>(newRecords);
 
                 // Validate and add records
@@ -47,19 +47,21 @@ namespace Employees.Application.Services
                             errorMessages.Add($"Validation error for PayrollNumber {employee.PayrollNumber}: {validationError}");
                             continue;
                         }
+                        // ensure that current employee is not exists in db
                         if(await _employeeRepository.existingPayrollNumber(employee.PayrollNumber))
                         {
                             failedRecords++;
                             errorMessages.Add($"Existing PayrollNumber {employee.PayrollNumber}");
                             continue;
                         }
-                        // call repository to add record
+                        // call employee repository to add record
                         await _employeeRepository.AddAsync(employee);
                         successfullyAddedRecords++;
                     }
                     catch (Exception ex)
                     {
                         failedRecords++;
+                        // on error save response for response
                         _errorHandler.HandleAddError(employee, ex, errorMessages);
                     }
                 }

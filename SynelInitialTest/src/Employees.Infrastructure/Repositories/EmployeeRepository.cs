@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Employees.Infrastructure.Repositories
 {
-    // this service is used for following the separation of concerns 
+    // this service is used to follow the separation of concerns 
     public class EmployeeRepository : IEmployeeRepository
     {
         private readonly ApplicationDbContext _context;

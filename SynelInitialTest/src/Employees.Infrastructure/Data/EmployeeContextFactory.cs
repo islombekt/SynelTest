@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Employees.Infrastructure.Data
 {
+    // create db context at design time for migrations
     public class EmployeeContextFactory : IDesignTimeDbContextFactory<ApplicationDbContext>
     {
         public ApplicationDbContext CreateDbContext(string[] args)

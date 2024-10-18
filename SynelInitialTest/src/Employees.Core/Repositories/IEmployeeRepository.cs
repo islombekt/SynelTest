@@ -9,5 +9,7 @@ namespace Employees.Core.Repositories
         Task AddAsync(Employee employee);
         Task<bool> existingPayrollNumber(string payrollNumber);
         Task<int> SaveChangesAsync();
+        
+      
     }
 }

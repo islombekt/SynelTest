@@ -13,8 +13,10 @@ namespace Employees.Infrastructure.Data
 
         public DbSet<Employee> Employees { get; set; }
 
+        // override Saving to automatically set who and when added or updated the record
         public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default)
-        {
+        {   
+            
             foreach (var entry in ChangeTracker.Entries<EntityBase>())
             {
                 switch (entry.State)
