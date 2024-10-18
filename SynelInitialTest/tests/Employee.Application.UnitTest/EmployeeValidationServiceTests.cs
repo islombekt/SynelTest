@@ -24,13 +24,13 @@ namespace Employee.Application.UnitTest
             var employee = new Employees.Core.Entities.Employee
             {
                 PayrollNumber = "",
-                Forenames = "John",
-                Surname = "Doe",
+                Forenames = "islom",
+                Surname = "Tkh",
                 DateOfBirth = DateTime.Now.AddYears(-30),
-                Telephone = "123456789",
-                Mobile = "987654321",
-                Address = "123 Main St",
-                EmailHome = "john.doe@example.com",
+                Telephone = "94627880",
+                Mobile = "946278800",
+                Address = "tashkent",
+                EmailHome = "isl.tkh@example.com",
                 StartDate = DateTime.Now
             };
 
@@ -49,13 +49,13 @@ namespace Employee.Application.UnitTest
             var employee = new Employees.Core.Entities.Employee
             {
                 PayrollNumber = "EMP001",
-                Forenames = "Jane",
-                Surname = "Smith",
+                Forenames = "some",
+                Surname = "someoneF",
                 DateOfBirth = DateTime.Now.AddYears(-25),
                 Telephone = "987654321",
                 Mobile = "123456789",
-                Address = "456 Another St",
-                EmailHome = "jane.smith@example.com",
+                Address = "456 Street",
+                EmailHome = "some.f@example.com",
                 StartDate = DateTime.Now
             };
 
