@@ -31,7 +31,11 @@ namespace Employees.Infrastructure.Repositories
 
         public async Task<IReadOnlyList<Employee>> getAllAsync()
         {
-            return await _context.Employees.AsNoTracking().ToListAsync();
+            // default order by Employee SurName
+            return await _context.Employees
+                            .OrderBy(e => e.Surname)
+                            .AsNoTracking()
+                            .ToListAsync();
         }
 
         public async Task<int> SaveChangesAsync()
