@@ -3,7 +3,7 @@ name: .NET Build and Deploy to IIS via SSH
 on:
   push:
     branches:
-      - main  # or your production branch
+      - master  # or your production branch
 
 jobs:
   build-and-deploy:
