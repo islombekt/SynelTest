@@ -1,45 +1,45 @@
-name: .NET Build and Deploy to IIS via SSH
+name: .NET Core Build and Deploy
 
 on:
   push:
     branches:
-      - master  # or your production branch
+      - master      # Trigger the workflow on pushes to the master branch
+      - production  # Also trigger on pushes to the production branch
 
 jobs:
-  build-and-deploy:
-    runs-on: windows-latest
+  build:
+    runs-on: windows-latest  # Use Windows runner if your development is on Windows
 
     steps:
-    - name: Check out the repo content
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v2
 
-    - name: Set up .NET
-      uses: actions/setup-dotnet@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '8.0'  # Updated to .NET 8.0
+        dotnet-version: '8.x'
 
-    - name: Build and publish
-      run: |
-        dotnet restore
-        dotnet publish -c Release -o ./publish --no-restore
+    - name: Restore dependencies
+      run: dotnet restore SynelInitialTest.sln
+      working-directory: .
 
-    - name: Copy files to the server
+    - name: Build
+      run: dotnet build SynelInitialTest.sln --no-restore -c Release
+      working-directory: .
+
+    - name: Publish
+      run: dotnet publish ./src/Employees.Web/Employees.Web.csproj -c Release -o out
+      working-directory: .
+
+    - name: List output for debugging
+      run: dir out /B /A-D  # 'dir' command for Windows
+      working-directory: ./src/Employees.Web
+
+    - name: Deploy to Server (SCP)
       uses: appleboy/scp-action@master
       with:
         host: ${{ secrets.SERVER_IP }}
-        username: ${{ secrets.SERVER_USER }}
+        username: ${{ secrets.SERVER_USERNAME }}
         password: ${{ secrets.SERVER_PASSWORD }}
-        port: 22
-        source: "publish/*"
-        target: "/var/www/yourapplication"  # Adjust the target path to your server's path
-
-    - name: Restart IIS
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.SERVER_IP }}
-        username: ${{ secrets.SERVER_USER }}
-        password: ${{ secrets.SERVER_PASSWORD }}
-        port: 22
-        script: |
-          iisreset /restart
-          # Additional commands to manage application pools or other settings can be added here
+        port: ${{ secrets.SERVER_PORT }}
+        source: "./src/Employees.Web/out/*"
+        target: "/remote/directory/path"
