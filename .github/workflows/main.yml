@@ -37,12 +37,10 @@ jobs:
     - name: Build and publish specific project
       run: |
         dotnet build ./SynelInitialTest/src/Employees.Web/Employees.Web.csproj --no-restore -c Release
-        dotnet publish ./SynelInitialTest/src/Employees.Web/Employees.Web.csproj -c Release -o out
+        dotnet publish ./SynelInitialTest/src/Employees.Web/Employees.Web.csproj -c Release -o ./myapp
       working-directory: .
 
-    - name: Publish
-      shell: cmd
-      run: dotnet publish -c Release -o ./myapp #./src/Employees.Web/Employees.Web.csproj -c Release -o out
+  
       #working-directory: .
 
    # - name: List output for debugging
