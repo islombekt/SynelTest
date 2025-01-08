@@ -57,7 +57,7 @@ jobs:
         echo "Stopping IIS to release file locks..."
         iisreset /stop
         echo "Copying new files to wwwroot..."
-        xcopy /s /y /f .\myapp\* C:\inetpub\wwwroot\yoursite\
+        xcopy /s /y /f .\myapp\* C:\inetpub\wwwroot\
         if errorlevel 1 echo "Error occurred during copying."
         echo "Starting IIS after update..."
         iisreset /start
