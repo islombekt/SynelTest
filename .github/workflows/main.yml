@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - master      # Trigger the workflow on pushes to the master branch
-      - production  # Also trigger on pushes to the production branch
+  
 
 jobs:
   build:
-    runs-on: windows-latest  # Use Windows runner if your development is on Windows
+    runs-on: self-hosted  # Use Windows runner if your development is on Windows
 
     steps:
     - uses: actions/checkout@v2
@@ -16,30 +16,37 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '8.x'
+        dotnet-version: '8.0.x'
 
-    - name: Restore dependencies
-      run: dotnet restore SynelInitialTest.sln
-      working-directory: .
+    #- name: Restore dependencies
+    #  run: dotnet restore SynelInitialTest.sln
+    #  working-directory: .
 
-    - name: Build
-      run: dotnet build SynelInitialTest.sln --no-restore -c Release
+    - name: Build with dotnet
+      shell: cmd
+      run: dotnet build --configuration Release #SynelInitialTest.sln --no-restore -c Release
       working-directory: .
 
     - name: Publish
-      run: dotnet publish ./src/Employees.Web/Employees.Web.csproj -c Release -o out
-      working-directory: .
+      shell: cmd
+      run: dotnet publish -c Release -o ./myapp #./src/Employees.Web/Employees.Web.csproj -c Release -o out
+      #working-directory: .
 
-    - name: List output for debugging
-      run: dir out /B /A-D  # 'dir' command for Windows
-      working-directory: ./src/Employees.Web
+   # - name: List output for debugging
+   #   run: dir out /B /A-D  # 'dir' command for Windows
+   #   working-directory: ./src/Employees.Web
 
-    - name: Deploy to Server (SCP)
-      uses: appleboy/scp-action@master
-      with:
-        host: ${{ secrets.SERVER_IP }}
-        username: ${{ secrets.SERVER_USERNAME }}
-        password: ${{ secrets.SERVER_PASSWORD }}
-        port: ${{ secrets.SERVER_PORT }}
-        source: "./src/Employees.Web/out/*"
-        target: "/remote/directory/path"
+    - name: Deploy to Server (IIS)
+      shell: cmd
+      run: |
+        iisreset /stop
+        xcopy /s /y .\myapp\* C:
+        iisreset /start
+      #uses: appleboy/scp-action@master
+      #with:
+      #  host: ${{ secrets.SERVER_IP }}
+      #  username: ${{ secrets.SERVER_USERNAME }}
+      #  password: ${{ secrets.SERVER_PASSWORD }}
+      #  port: ${{ secrets.SERVER_PORT }}
+      #  source: "./src/Employees.Web/out/*"
+      #  target: "/remote/directory/path"
