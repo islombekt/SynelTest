@@ -40,7 +40,11 @@ jobs:
         dotnet publish ./SynelInitialTest/src/Employees.Web/Employees.Web.csproj -c Release -o ./myapp
       working-directory: .
 
-  
+    - name: Restore dependencies for Unit Tests
+      run: dotnet restore ./SynelInitialTest/tests/Employee.Application.UnitTest/Employee.Application.UnitTest.csproj
+
+    - name: Run Unit Tests
+      run: dotnet test ./SynelInitialTest/tests/Employee.Application.UnitTest/Employee.Application.UnitTest.csproj --no-restore --verbosity normal
       #working-directory: .
 
    # - name: List output for debugging
@@ -50,8 +54,11 @@ jobs:
     - name: Deploy to Server (IIS)
       shell: cmd
       run: |
+        echo "Stopping IIS to release file locks..."
         iisreset /stop
-        xcopy /s /y .\myapp\* C:
+        echo "Copying new files to wwwroot..."
+        xcopy /s /y .\myapp\* C:\inetpub\wwwroot\
+        echo "Starting IIS after update..."
         iisreset /start
       #uses: appleboy/scp-action@master
       #with:
