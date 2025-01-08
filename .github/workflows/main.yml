@@ -22,9 +22,13 @@ jobs:
     #  run: dotnet restore SynelInitialTest.sln
     #  working-directory: .
 
-    - name: Build with dotnet
-      shell: cmd
-      run: dotnet build --configuration Release #SynelInitialTest.sln --no-restore -c Release
+    - name: Restore dependencies for specific project
+      run: dotnet restore ./src/Employees.Web/Employees.Web.csproj
+
+    - name: Build and publish specific project
+      run: |
+        dotnet build ./src/Employees.Web/Employees.Web.csproj --no-restore -c Release
+        dotnet publish ./src/Employees.Web/Employees.Web.csproj -c Release -o out
       working-directory: .
 
     - name: Publish
