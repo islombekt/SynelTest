@@ -50,6 +50,12 @@ jobs:
    # - name: List output for debugging
    #   run: dir out /B /A-D  # 'dir' command for Windows
    #   working-directory: ./src/Employees.Web
+    - name: Adjust and check permissions
+      run: |
+        ICACLS "C:\inetpub\wwwroot" /grant "IIS_IUSRS:(OI)(CI)M"
+        ICACLS "C:\inetpub\wwwroot"
+      shell: pwsh
+
     - name: Check Permissions on wwwroot
       run: |
         $path = "C:\inetpub\wwwroot"
