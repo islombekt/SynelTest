@@ -50,7 +50,12 @@ jobs:
    # - name: List output for debugging
    #   run: dir out /B /A-D  # 'dir' command for Windows
    #   working-directory: ./src/Employees.Web
-
+    - name: Check Permissions on wwwroot
+      run: |
+        $path = "C:\inetpub\wwwroot"
+        (Get-Acl $path).Access | Format-Table IdentityReference, FileSystemRights, AccessControlType, IsInherited, InheritanceFlags, PropagationFlags -AutoSize
+      shell: pwsh
+      
     - name: Deploy to Server (IIS)
       shell: cmd
       run: |
