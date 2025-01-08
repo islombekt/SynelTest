@@ -26,13 +26,13 @@ jobs:
       shell: pwsh
 
     - name: List files in src directory
-      run: Get-ChildItem -Path ./src/
+      run: Get-ChildItem -Path ./SynelInitialTest/src/
       shell: pwsh
     - name: List files in src/Employees.Web directory
       run: Get-ChildItem -Path ./src/Employees.Web/
       shell: pwsh
     - name: Restore dependencies for specific project
-      run: dotnet restore ./src/Employees.Web/Employees.Web.csproj
+      run: dotnet restore ./SynelInitialTest/src/Employees.Web/Employees.Web.csproj
     
     - name: Build and publish specific project
       run: |
