@@ -22,7 +22,7 @@ jobs:
     #  run: dotnet restore SynelInitialTest.sln
     #  working-directory: .
     - name: List files in the project directory
-      run: ls -al ./src/Employees.Web/
+      run: Get-ChildItem -Path ./src/Employees.Web/ -Force
       working-directory: ${{ github.workspace }}
    
     - name: Restore dependencies for specific project
