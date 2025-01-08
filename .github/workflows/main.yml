@@ -21,7 +21,10 @@ jobs:
     #- name: Restore dependencies
     #  run: dotnet restore SynelInitialTest.sln
     #  working-directory: .
-
+    - name: List files in the project directory
+      run: ls -al ./src/Employees.Web/
+      working-directory: ${{ github.workspace }}
+   
     - name: Restore dependencies for specific project
       run: dotnet restore ./src/Employees.Web/Employees.Web.csproj
 
